@@ -1,0 +1,109 @@
+h1{
+    color:rgb(255, 0, 162);
+}
+
+#unique{
+    color:rgb(192, 204, 255);
+    font-weight: bolder;
+}
+
+.item{
+    color:rgb(42, 69, 165);
+}
+
+*{
+    background-color: rgb(127, 253, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*group selector-,(use comma)*/
+
+h2,p{
+    font-size: large;
+    font-style: oblique;
+}
+
+/*Descendant selector - inheritance(parent leave space child - div p)*/
+div p{
+    background-color: blueviolet;
+}
+
+/*child selctor - use > symbol  -----> in div , for all span this below property will work. 
+if two sapn is present , but need to use property for one span alone means use id selector
+*/
+div>#main{
+    background-color:rgb(43, 226, 174);
+    font-weight: bolder;
+}
+
+div>span{
+    background-color:blueviolet;
+    font-weight: bolder;
+}
+
+/*adjacent selector - use + symbol*/
+h3+p{
+    color: brown;
+}
+
+/*General selector ----> use ~ symbol*/
+h4~p{
+    border:1px solid ;
+}
+
+/*hover ---> use colon (:) */
+a:hover{
+    color: rgb(218, 32, 150);
+    border: 10px solid green;
+}
+/* general for all p tag*/
+p::first-letter{
+    font-size: 30px;
+    color: red;
+}
+ /*want to be use this property for the p tag which is inside only in h4 means */
+ h4~p::first-letter{
+    font-size: 50px;
+    color: black;
+ }
+
+/* padding --> space betwn content and border 
+   border ---> border or box arround the content
+   margin ----> space btwn original margin and our border
+*/
+ .container{
+    border:3px solid blueviolet;
+    margin: 30px;
+    padding:50px;
+    background-color: aqua;
+ }
+
+ .container>div{
+    border: 2px solid green;
+    padding:20px;
+ }
+
+ /*flesbox ----> display is the property to implement the flex
+ default flex direction which is in row wise
+ */
+ .container1{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    border:3px solid black;
+    background: gray;
+    height:100px;
+    align-items:center;
+ }
+
+ .box{
+    background-color: blueviolet;
+    color:beige;
+    font-size: 20px;
+    font-style: italic;
+    height:60px;
+    weight:60px;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    border:5px solid yellowgreen;
+ }

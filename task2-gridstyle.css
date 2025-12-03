@@ -1,0 +1,171 @@
+.grid{
+    display:grid;
+    margin:100px;
+    grid-template-columns: repeat(6, 50px);
+    grid-template-rows: repeat(5, 50px);
+    gap: 3px;
+} 
+
+.item1{
+    border: 10px solid red;
+    background-color: red;
+    grid-row: span 2;
+
+}
+.item2{
+    border: 10px solid purple;
+    background-color: purple;
+
+}
+.item3{
+    border: 10px solid red;
+    background-color: red;
+    grid-column: span 2;
+
+}
+.item4{
+    border: 10px solid blue;
+    background-color: blue;
+
+}
+/*.item5{
+    border: 10px solid blue;
+    background-color: blue;
+
+}*/
+.item6{
+    border: 10px solid orange;
+    background-color: orange;
+    grid-row: span 2;
+}
+.item7{
+    border: 10px solid white;
+    background-color: white;
+    grid-row: span 2;
+
+}
+.item8{
+    border: 10px solid white;
+    background-color:white;
+    grid-row: span 2;
+
+}
+.item9{
+    border: 10px solid orange;
+    background-color: orange;
+    grid-row: span 2;
+
+}
+.item10{
+    border: 10px solid white;
+    background-color: white;
+
+}
+.item11{
+    border: 10px solid purple;
+    background-color: purple;
+
+}
+.item12{
+    border: 10px solid white;
+    background-color: white;
+
+}
+.item13{
+    border: 10px solid orange;
+    background-color: orange;
+    grid-row: span 2;
+
+}
+.item14{
+    border: 10px solid blue;
+    background-color: blue;
+    
+
+}
+.item15{
+    border: 10px solid purple;
+    background-color: purple;
+
+}
+.item16{
+    border: 10px solid red;
+    background-color: red;
+    grid-column: span 2;
+
+
+}
+/*.item17{
+    border: 10px solid orange;
+    background-color: orange;
+     
+
+}*/
+.item18{
+    border: 10px solid purple;
+    background-color: purple;
+
+}
+.item19{
+    border: 10px solid orange;
+    background-color: orange;
+    grid-column: span 2;
+
+
+}
+.item20{
+    border: 10px solid purple;
+    background-color: purple;
+
+}
+.item21{
+    border: 10px solid blue;
+    background-color: blue;
+
+}
+/*
+.item22{
+    border: 10px solid red;
+    background-color: red;
+
+}
+.item23{
+    border: 10px solid red;
+    background-color: red;
+
+}
+.item24{
+    border: 10px solid white;
+    background-color: white;
+
+}
+.item25{
+    border: 10px solid orange;
+    background-color: orange;
+
+}
+.item26{
+    border: 10px solid purple;
+    background-color: purple;
+
+}
+.item27{
+    border: 10px solid orange;
+    background-color: orange;
+
+}
+.item28{
+    border: 10px solid orange;
+    background-color: orange;
+
+}
+.item29{
+    border: 10px solid purple;
+    background-color: purple;
+
+}
+.item30{
+    border: 10px solid blue;
+    background-color: blue;
+
+}*/
